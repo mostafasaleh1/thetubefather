@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const VideoDetail = () => {
   return (
@@ -6,4 +6,4 @@ const VideoDetail = () => {
   )
 }
 
-export default VideoDetail
+export default VideoDetail;
