@@ -8,7 +8,6 @@ body {
 
 a {
   text-decoration: none;
-  color: black;
 }
 
 ::-webkit-scrollbar {
@@ -55,4 +54,8 @@ a {
 
 .category-btn:hover span{
   color: white !important;
+}
+
+.copyright a {
+  color: #FC1503;
 }

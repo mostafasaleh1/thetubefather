@@ -2,9 +2,8 @@ import React from 'react';
 import { Stack } from "@mui/material";
 import { categories } from "../assets/MUIAssets";
 
-const selectedCategory = "New";
 
-const SideBar = () => {
+const SideBar = ({selectedCategory, setSelectedCategory}) => {
     return (
         <Stack direction="row" sx={{
             overflowY: "auto", height: { sx: "auto", md: "95%" }, flexDirection: { md: "column" },
@@ -12,6 +11,7 @@ const SideBar = () => {
         >
             {categories.map((category) => (
                 <button
+                    onClick={() => setSelectedCategory(category.name)}
                     className='category-btn'
                     style={{ background: category.name === selectedCategory && "#fc1503", color: "white" }}
                 >
