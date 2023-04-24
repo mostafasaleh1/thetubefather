@@ -1,4 +1,3 @@
-import { BedSharp } from "@mui/icons-material";
 import axios from "axios";
 
 const BASE_URL = "https://youtube-v31.p.rapidapi.com";
@@ -10,12 +9,12 @@ const options = {
     },
     headers: {
         'content-type': 'application/octet-stream',
-        'X-RapidAPI-Key': process.env.Youtube3APIKey,
+        'X-RapidAPI-Key': "d385092d84msh93f769b3882d573p1ec6c5jsnc02c1e637773",
         'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
     }
 };
 
 export const FetchFromYoutubeAPI = async (url) => {
-    const data = await axios.get(`${BASE_URL}/${url}`, options);
+    const { data } = await axios.get(`${BASE_URL}/${url}`, options);
     return data;
 }
