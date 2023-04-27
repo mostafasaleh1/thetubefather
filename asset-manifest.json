@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/thetubefather/static/css/main.2f9e4c1c.css",
+    "main.js": "/thetubefather/static/js/main.1a8b8480.js",
+    "index.html": "/thetubefather/index.html",
+    "main.2f9e4c1c.css.map": "/thetubefather/static/css/main.2f9e4c1c.css.map",
+    "main.1a8b8480.js.map": "/thetubefather/static/js/main.1a8b8480.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f9e4c1c.css",
+    "static/js/main.1a8b8480.js"
+  ]
+}
