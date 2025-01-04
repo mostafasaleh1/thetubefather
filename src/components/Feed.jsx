@@ -24,7 +24,7 @@ const Feed = () => {
       <Box sx={{ height: { sx: "auto", md: "92vh" }, BorderRight: "1px solid #3d3d3d", px: { sx: "0", md: 2 } }}>
         <SideBar selectedCategory={selectedCategory} setSelectedCategory={setSelectedCategory} />
         <Typography className='copyright' variant='body2' sx={{ mt: 1.5, color: "#fff" }}>
-          Copyright &copy; 2023 <Link to="https://mostafasaleh1.github.io/" target='_blank' rel='noreferrer'>The Tubefather.</Link>
+          Copyright &copy; 2023 <Link to="https://mostafasaleh1.github.io/" target='_blank' rel='noreferrer'>Mostafa Saleh</Link>
         </Typography>
       </Box>
 
