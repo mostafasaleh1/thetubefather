@@ -1,7 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import { Box, Stack, Typography } from "@mui/material";
-import { BorderClear, BorderRight } from '@mui/icons-material';
 import { Link } from "react-router-dom";
 import { SideBar, Videos } from "./Exports";
 import { FetchFromYoutubeAPI } from '../assets/FetchFromYoutubeAPI';

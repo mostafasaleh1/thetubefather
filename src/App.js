@@ -9,10 +9,10 @@ const App = () => {
       <Box>
         <Navbar />
         <Routes>
-          <Route path="/" exact element={<Feed />} />
-          <Route path="/video/:id" element={<VideoDetail />} />
-          <Route path="/channel/:id" element={<ChannelDetail />} />
-          <Route path="/search/:searchTerm" element={<SearchFeed />} />
+          <Route path="/thetubefather/" exact element={<Feed />} />
+          <Route path="/thetubefather/video/:id" element={<VideoDetail />} />
+          <Route path="/thetubefather/channel/:id" element={<ChannelDetail />} />
+          <Route path="/thetubefather/search/:searchTerm" element={<SearchFeed />} />
         </Routes>
       </Box>
     </BrowserRouter>
